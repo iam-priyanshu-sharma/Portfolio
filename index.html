@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Priyanshu's Portfolio</title>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -139,9 +139,11 @@
                         I have a passion for designing and developing websites. I am always looking to improve my skill
                         set by learning new technologies, tools or frameworks.
                     </p>
+                    <br>
                     <p>
                         I have a good knowledge in C/C++, Java, Python, HTML, CSS, JavaScript, MySQL, Git, GitHub etc...
                     </p>
+                    <br>
                     <p>
                         I'm doing an internship of Python Programming and Web Development at CodSoft.
                     </p>
@@ -233,7 +235,7 @@
                         <a href="https://codepen.io/iam-priyanshu-sharma/pen/ExOYodb"><img
                                 src="assets/Random-Quote-Machine.png" alt="Random Quote Machine Image"></a>
                         <div class="text">Random Quote Machine</div>
-                        <p>New quote everytime.</p>
+                        <p>New quote every time. You can directly share quote from here.</p>
                     </div>
                 </div>
                 <div class="card">
@@ -369,20 +371,21 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://getform.io/f/8ca660ec-05bb-4e2e-969e-b2e7cad2aadc" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" required name="name">
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" required name="email">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required name="subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." required name="message"></textarea>
+                            <input type="hidden" name="_gotcha" style="display:none !important">
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
