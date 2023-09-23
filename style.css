@@ -425,6 +425,26 @@ section .title::after {
     background: crimson;
 }
 
+.skills-content .right .c-programming::before {
+    width: 90%;
+}
+
+.skills-content .right .c-plus-plus::before {
+    width: 85%;
+}
+
+.skills-content .right .java::before {
+    width: 75%;
+}
+
+.skills-content .right .python::before {
+    width: 80%;
+}
+
+.skills-content .right .sql::before {
+    width: 50%;
+}
+
 .skills-content .right .html::before {
     width: 80%;
 }
@@ -437,16 +457,8 @@ section .title::after {
     width: 20%;
 }
 
-.skills-content .right .java::before {
-    width: 70%;
-}
-
-.skills-content .right .python::before {
-    width: 80%;
-}
-
-.skills-content .right .sql::before {
-    width: 40%;
+.skills-content .right .git-github::before {
+    width: 60%;
 }
 
 /* project section styling */
